@@ -1,14 +1,19 @@
 // ====================共通====================
 * {
-	-webkit-box-sizing:border-box;
-	        box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html {
+	font-size:62.5%;
 }
 
 body {
 	overflow:auto;
 	padding:1em 2em 2em 20em;
 	width:100vw;
-	font-size:16px;
+	background-color:#fbfaf5;
+	color:#302833;
+	font-size:1.6rem;
 	font-family:"Roboto", sans-serif;
 	line-height:1.5;
 }
@@ -17,7 +22,6 @@ body {
 // ====================ヘッダー====================
 .header {
 	width:100%;
-	background:crimson;
 }
 
 // ====================目次====================
@@ -44,14 +48,12 @@ body {
 		color:#aaaaaa;
 		text-decoration:none;
 		-webkit-transition:all 0.3s cubic-bezier(0.230, 1.000, 0.320, 1.000);
-		     -o-transition:all 0.3s cubic-bezier(0.230, 1.000, 0.320, 1.000);
 		        transition:all 0.3s cubic-bezier(0.230, 1.000, 0.320, 1.000);
 	}
 
 	li.visible > a {
-		color:#111111;
+		color:#302833;
 		-webkit-transform:translate(5px);
-		    -ms-transform:translate(5px);
 		        transform:translate(5px);
 	}
 }
@@ -67,7 +69,6 @@ body {
 
 	path {
 		-webkit-transition:all 0.3s ease;
-		     -o-transition:all 0.3s ease;
 		        transition:all 0.3s ease;
 	}
 }
@@ -118,7 +119,6 @@ body {
 table ,
 td ,
 th {
-	border:1px solid #555555;
 	border-collapse:collapse;
 }
 
@@ -147,6 +147,6 @@ th {
 
 @media screen and (max-width: 560px) {
 	body {
-		font-size:14px;
+		font-size:1.4rem;
 	}
 }
