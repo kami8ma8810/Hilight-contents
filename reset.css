@@ -1,0 +1,11 @@
+html {
+	-webkit-box-sizing:border-box;
+	        box-sizing:border-box;
+	font-size:62.5%;
+}
+
+body {
+	color:#333333;
+	font-size:1.4rem;
+	font-family:-apple-system, Segoe UI, Helvetica Neue, Hiragino Kaku Gothic ProN, "メイリオ", meiryo, sans-serif;
+}
