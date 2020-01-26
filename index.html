@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Roboto" rel="stylesheet" />
   <link href="normalize.css" rel="stylesheet" type="text/css" />
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <title>Progress Nav カスタマイズテンプレート</title>
+  <title>Progress Nav テンプレート</title>
 </head>
 
 <body>
@@ -37,13 +37,21 @@
   <main class="contents">
     <section id="intro">
       <h2>はじめに</h2>
-      <p>Progress Navは <a
+      <p>
+        Progress Navは
+        <a
           href="https://twitter.com/hakimel">hakimel</a>さんというスウェーデンのUIデザイナー/ディベロッパーの方が制作した、現在表示されている場所を目次でハイライトしてくれるツールです。
       </p>
       <p>まずはこちらのツールを制作してくださったhakimelさんに感謝です。</p>
-      <p>元のコードなどは目次下記のGitHubのリンク先でダウンロードできます。</p>
-      <p>今回はより手軽に使い回せるように、私なりにカスタマイズしました。簡単な使い方も説明していますので、よかったら活用してみてください。</p>
-      <p>注意点：idは必ずhタグなどではなく、sectionタグやdivタグに付けてください。hタグにつけると、hタグが画面外に行ったときにハイライトが消えてしまい、どこを読んでいるかユーザーを困惑させてしまいます。</p>
+      <p>
+        元のコードなどは目次下記のGitHubのリンク先でダウンロードできます。
+      </p>
+      <p>
+        今回はより手軽に使い回せるように、私なりにカスタマイズしました。簡単な使い方も説明していますので、よかったら活用してみてください。
+      </p>
+      <p>
+        注意点：idは必ずhタグなどではなく、sectionタグやdivタグに付けてください。hタグにつけると、hタグが画面外に行ったときにハイライトが消えてしまい、どこを読んでいるかユーザーを困惑させてしまいます。
+      </p>
       <h3>本家からの主な変更点</h3>
       <table>
         <tbody>
@@ -52,7 +60,9 @@
             <th>変更後</th>
           </tr>
           <tr>
-            <td>nav{position:fixed}でarticle部分をpadding-leftでnav分あけて構成</td>
+            <td>
+              nav{position:fixed}でarticle部分をpadding-leftでnav分あけて構成
+            </td>
             <td>navのfixedを消してnavとmainでflex構成</td>
           </tr>
           <tr>
@@ -65,11 +75,15 @@
           </tr>
         </tbody>
       </table>
-      <p><img src="change_table.png" alt="本家からの主な変更点"></p>
+      <p><img src="change_table.png" alt="本家からの主な変更点" /></p>
       <p>class名もシンプルなものにしました。</p>
-      <p>カスタマイズしやすいよう、CSSはレイアウトが崩れない程度に削りました。</p>
+      <p>
+        カスタマイズしやすいよう、CSSはレイアウトが崩れない程度に削りました。
+      </p>
       <p>フォントサイズやline-heightなどは適宜お好みで設定ください。</p>
-      <p>スマホ横でもハイライト機能が見られるよう、ブレイクポイントを560pxにしました。</p>
+      <p>
+        スマホ横でもハイライト機能が見られるよう、ブレイクポイントを560pxにしました。
+      </p>
       <p>
         The rest of the content below is taken from
         <a href="https://slides.com/developers" target="_top">slides.com/developers</a>. Take a look at that to see how
@@ -212,18 +226,18 @@
 
   <script>
     var _gaq = [
-      ["_setAccount", "UA-15240703-1"],
-      ["_trackPageview"]
+      ['_setAccount', 'UA-15240703-1'],
+      ['_trackPageview']
     ];
     (function (d, t) {
       var g = d.createElement(t),
         s = d.getElementsByTagName(t)[0];
       g.async = true;
       g.src =
-        ("https:" == location.protocol ? "https://ssl" : "http://www") +
-        ".google-analytics.com/ga.js";
+        ('https:' == location.protocol ? 'https://ssl' : 'http://www') +
+        '.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g, s);
-    })(document, "script");
+    })(document, 'script');
   </script>
 </body>
 
